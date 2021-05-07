@@ -22,7 +22,9 @@ class Stack:
 
 class QueueTwoStacks:
     def __init__(self):
-        # Your code here
+        # Your code here 
+        self.stack_1 = stack()
+        self.stack_2 = stack()
 
         
     def enqueue(self, item):
@@ -32,3 +34,6 @@ class QueueTwoStacks:
     def dequeue(self):
         # Your code here
 
+stack = []
+stack.append(1)
+stack.pop()
